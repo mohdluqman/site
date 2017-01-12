@@ -92,3 +92,7 @@ $(function () {
         icon: "images/marker.png"
       });
 });
+jQuery(document).ready(function($) {
+	"use strict";
+	$("#yr").html(new Date().getFullYear());
+});
